@@ -1,7 +1,9 @@
 import React from 'react'
+import Animate from './Animate'
 
 export default function Home() {
   return (
+    <Animate>
     <div>
       
         <div className="Home">
@@ -14,5 +16,6 @@ export default function Home() {
         </div>
     
     </div>
+    </Animate>
   )
 }
