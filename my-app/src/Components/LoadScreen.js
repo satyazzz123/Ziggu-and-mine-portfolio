@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import Animated_trans from './Animated_trans';
 
 export default function LoadScreen() {
     const[show1,toShow1]=useState("block");
@@ -7,19 +8,21 @@ export default function LoadScreen() {
   useEffect(()=>{
         setTimeout(()=>{
             toShow1("none")
-        },800);
-        setTimeout(()=>{
-            toShow2("none")
         },1200);
         setTimeout(()=>{
+            toShow2("none")
+        },1600);
+        setTimeout(()=>{
             toShow3("none")
-        },1600)
+        },2000)
   },[])
   return (
-    <div>
-      <div className="load_body">
+    
+     <Animated_trans>
+     <div className="load_body">
         <span style={{padding:"0.20rem",display:`${show1}`}}>Satyajit </span> <span style={{padding:"0.20rem",display:`${show2}`}}>Behera's </span><span style={{padding:"0.20rem",display:`${show3}`}}> Portfolio</span>
       </div>
-    </div>
+       </Animated_trans>
+    
   )
 }
