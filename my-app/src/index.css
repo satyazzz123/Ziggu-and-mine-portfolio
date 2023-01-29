@@ -13,3 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'cin';
+  src: local('cin'), url(./Fonts/Font1.ttf) format('truetype');
+}
