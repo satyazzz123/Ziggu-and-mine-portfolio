@@ -4,25 +4,24 @@ import Home from './Components/Home';
 import LoadScreen from './Components/LoadScreen';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Project from './Components/Project';
+import Image1 from './Components/Image1';
+import Parallax from './Components/Parallax';
+import Para2 from './Components/Para2';
+import Para3 from './Components/Para3';
+import Para4 from './Components/Para4';
+import Final from './Components/Final';
+import Third from './Components/Third';
+import Paper from './Components/Paper';
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 6000)
-  }, [loading])
+ 
   return (
     <>
-     {
-      loading === false?(
-        <Router>
-          <Routes>
-           <Route exact path='/' element={<Home/>}/>
-           <Route exact path='/project' element={<Project/>}/>
-           </Routes>
-          </Router>
-      ):
-      (<LoadScreen/>)
-     }
+   
+          
+    {/* <Third/> */}
+    <Paper/>
+           
   
     </>
    

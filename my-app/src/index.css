@@ -17,3 +17,11 @@ code {
   font-family: 'cin';
   src: local('cin'), url(./Fonts/Font1.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'glass';
+  src: local('glass'), url(./Fonts/font2.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'eva';
+  src: local('eva'), url(./Fonts/font3.ttf) format('truetype');
+}
