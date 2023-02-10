@@ -51,7 +51,7 @@ export default function Paper() {
         </ParallaxLayer>
         <ParallaxLayer offset={1} style={{background:"#BBC4C2"}}>
         
-                <ParallaxLayer horizontal={true}  offset={0} speed={-0.7} style={{zIndex:"5"}}>
+                <ParallaxLayer horizontal={true}  offset={0} speed={+0.2} style={{zIndex:"5"}}>
                 <img style={{transform:"scale(0.45)",position:"relative",top:"20rem",zIndex:"5"}} src={paper} alt="" id="a" />
                 </ParallaxLayer>
                 <ParallaxLayer horizontal={true}  offset={0.5} speed={+0.3} style={{zIndex:"5"}}>
