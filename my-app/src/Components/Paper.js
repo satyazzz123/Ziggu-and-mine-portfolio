@@ -29,19 +29,16 @@ export default function Paper() {
   return (
     <div>
       <Parallax pages={4}>
-        <ParallaxLayer offset={0} style={{background:"#030000",color:"#F7F5F6"}}>
-            <ParallaxLayer offset={0.2} >
-               <img style={{transform:"scale(2) translateX(-10rem)"}} src={win} alt="" id='win' />
-
-            </ParallaxLayer>
+        <ParallaxLayer offset={0} style={{backgroundImage:`url('https://images.unsplash.com/photo-1536311312982-31ed42ebc0f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80')`,color:"#F7F5F6",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+        
             <ParallaxLayer offset={0.2} speed={-0.5} >
                 
-                <span style={{position:"absolute",left:"55rem",fontSize:"2.5rem",perspective:"(20rem)",transform:"translateZ(50rem)", fontFamily:"eva"}}> 
+                <span style={{position:"absolute",left:"35rem",fontSize:"2.5rem",perspective:"(200rem)",transform:"translateZ(50rem)", fontFamily:"eva"}}> 
                 <h1 id='satya'>Satyajit Behera's Portfolio</h1>
-                <h1 style={{display:"flex",justifyContent:"space-around"}} id="icon"> 
-               <a   className='hover'  href="https://www.linkedin.com/in/satyajit-behera-0522411ba" target={"_blank"}> <BsLinkedin/></a>
-                 <a  className='hover'  href="https://github.com/satyazzz123" target={"_blank"}> <BsGithub/>  </a>
-                  <a  className='hover'  href="https://twitter.com/Satyaji39445063?t=mEwreeQoAqzmbjhF3uUZSw&s=08" target={"_blank"}><BsTwitter/> </a> 
+                <h1 style={{display:"flex",justifyContent:"center"}} id="icon"> 
+               <a   className='hover small'  href="https://www.linkedin.com/in/satyajit-behera-0522411ba" target={"_blank"}> <BsLinkedin/></a>
+                 <a  className='hover small'  href="https://github.com/satyazzz123" target={"_blank"}> <BsGithub/>  </a>
+                  <a  className='hover small'  href="https://twitter.com/Satyaji39445063?t=mEwreeQoAqzmbjhF3uUZSw&s=08" target={"_blank"}><BsTwitter/> </a> 
                   </h1>
                 
                  </span>
@@ -123,25 +120,25 @@ export default function Paper() {
 
         </ParallaxLayer>
         <ParallaxLayer offset={3} style={{background:"#0D3530"}}>
-           <ParallaxLayer offset={0.5} style={{color:"#F7F5F6",fontFamily:"eva",fontSize:"4rem",marginLeft:"2rem"}} speed={0.02}>
+           <ParallaxLayer offset={0.5} style={{color:"#F7F5F6",fontFamily:"eva",fontSize:"4rem",marginLeft:"35rem"}} speed={0.02}>
             My Projects
            </ParallaxLayer>
             <ParallaxLayer offset={0} style={{color:"white"}}>
-            <div style={{position:"relative",right:"-80rem"}} className="prop">
-                <div style={{width:"35%",fontSize:"2.2rem"}}>
-                      <a className='hover' href="https://github.com/satyazzz123/Ziggu-and-mine-travelling-website"  target={"_blank"} style={{color:"white",textDecoration:"none"}}>  <h1>Zeil's <BsArrowUpRight/> </h1></a>
+            <div style={{position:"relative",right:"-75rem",top:"5rem"}} className="prop">
+                <div style={{width:"35%",fontSize:"1.8rem"}}>
+                      <a className='hover' href="https://github.com/satyazzz123/Ziggu-and-mine-travelling-website"  target={"_blank"} style={{color:"white",textDecoration:"none",fontFamily:"eva"}}>  <h1>Zeil's <BsArrowUpRight/> </h1></a>
                         <p>
                             A travelling website where you can find about different beaches around the year, locations and a gallery for viewing all images and restaurant.
                         </p>
                 </div>
-                <div style={{width:"35%",fontSize:"2.2rem"}}>
-                    <a className='hover' href="https://github.com/satyazzz123/Translating-website"  target={"_blank"} style={{color:"white",textDecoration:"none",}}>    <h1>Multilingual Translator  <BsArrowUpRight /> </h1> </a>
+                <div style={{width:"35%",fontSize:"1.8rem"}}>
+                    <a className='hover' href="https://github.com/satyazzz123/Translating-website"  target={"_blank"} style={{color:"white",textDecoration:"none",fontFamily:"eva"}}>    <h1>Multilingual Translator  <BsArrowUpRight /> </h1> </a>
                         <p>
                             A website which helps you to translate from one language to another and also has text to speech and speech to text functionality
                         </p>
                 </div>
-                <div style={{width:"35%",fontSize:"2.2rem"}}>
-                      <a className='hover' href="https://github.com/satyazzz123/Ziggu-and-my-extension" target={"_blank"} style={{color:"white",textDecoration:"none"}}>  <h1>Chrome Extension  <BsArrowUpRight/> </h1></a>
+                <div style={{width:"35%",fontSize:"1.8rem"}}>
+                      <a className='hover' href="https://github.com/satyazzz123/Ziggu-and-my-extension" target={"_blank"} style={{color:"white",textDecoration:"none",  fontFamily:"eva"}}>  <h1>Chrome Extension  <BsArrowUpRight/> </h1></a>
                         
                         <p>
                           A chrome extensionto make sorting tasks easy
